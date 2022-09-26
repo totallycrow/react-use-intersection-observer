@@ -7,8 +7,8 @@ function App() {
   const [divRef, isVisible] = useIntersectionObserver();
   const [test, isTestVisible] = useIntersectionObserver();
 
-  if (isVisible) alert("lol");
-  if (isTestVisible) alert("lol2");
+  if (isVisible) alert("test");
+  if (isTestVisible) alert("test2");
 
   return (
     <div>
